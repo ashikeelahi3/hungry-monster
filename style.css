@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* navbar */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+  max-width: 700px;
+  margin: 0 auto 20px auto;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+  min-width: 300px;
+}
+
+nav > ul > li {
+  height: 15px;
+  width: 60px;
+  list-style-type: none;
+}
+/* end of navbar */
+
+
+/* search */
+#search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+}
+
+#input-area, #search-button {
+  outline: 0;
+  border: none;
+}
+
+#input-area {
+  background-color: rgba(128, 128, 128, 0.3);
+  border-radius: 10px 0 0 10px;
+  height: 40px;
+  padding: 10px;
+  color: rgb(95, 93, 93);
+  font-size: 15px;
+  max-width: 250px;
+}
+
+#search-button {
+  background-color: orangered;
+  color: white;
+  font-size: 15px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 0 10px 10px 0;
+}
+/* end of search */
+
+/* food area */
+#main {
+  background-image: url("https://www.tasteofhome.com/wp-content/uploads/2019/06/meal-prepshutterstock_1217679244.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 700px;
+  min-height: 350px;
+  padding: 20px;
+  margin: auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-area-text {
+  color: white;
+  background-color: rgba(128, 128, 128, 0.6);
+}
+
+.food-box {
+  width: 200px;
+  height: 230px;
+  background-color: rgba(240, 248, 255, 0.507);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.food-box:hover {
+  transform: scale(1.2);
+  z-index: 100;
+  background-color: rgba(240, 248, 255, 0.3);
+}
+
+.food-img {
+  width: 160px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.food-box > p {
+  text-align: center;
+  margin: 10px 0;
+}
+/* end of food area */
+
+
+/* single food section */
+#single-food-section{
+  display: none;
+  background-color: rgba(128, 128, 128, 0.1);
+  border-radius: 20px;
+  color: gray;
+  padding: 30px;
+  margin: auto;
+  margin-top: 40px;
+
+  max-width: 400px;
+  text-align: center;
+}
+
+#single-food-section img{
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  margin: 0  0 10px 0;
+}
+
+#single-food-section h4 {
+  text-align: left;
+}
+#single-food-section p {
+  text-align: justify;
+}
+
+#single-food-section button {
+  width: 50%;
+  height: 40px;
+  background-color: red;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+  /* end of single food section */
+
+
+  https://cdn4.vectorstock.com/i/1000x1000/31/43/opps-pop-art-comic-book-text-speech-bubble-vector-31843143.jpg
